@@ -1,0 +1,164 @@
+:root{
+    font-size: 10px;
+    --padding-horizontal: 16rem;
+    --background-color: rgb(70, 69, 69);
+    --neutral-white: rgb(248, 186, 127);
+    font-family: "Source Code Pro", serif;
+}
+
+body{
+    background-image: url(layered-peaks-haikei-alternate-two.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.sign-up-box{
+    margin-top: 15rem;
+    flex-direction: column;
+    padding-left: var(--padding-horizontal);
+    padding-right: var(--padding-horizontal);
+    border: 0.7rem solid rgb(16, 16, 16);
+    border-radius: 1.5rem;
+    padding-bottom: calc(var(--padding-horizontal) * 1.5);
+    background-color: var(--neutral-white)
+}
+i{
+    color: var(--background-color);
+}
+.bottom-form-sign-up{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.personal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sign-up-box h1{
+    margin-top: 6rem;
+    color: var(--background-color);
+    font-size: 5rem;
+}
+.sign-up-box h2{
+    font-size: 3rem;
+    color: var(--background-color);
+}
+#bottom-h2-text{
+    padding-top: -3rem;
+}
+.register-organization{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#sign-up-button, #contact-us-button{
+    margin-top: 2rem;
+    background-color: var(--neutral-white);
+    border: none;
+    color: var(--background-color);
+    font-weight: 550;
+    border: 0.35rem solid var(--background-color);
+    padding: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 0.9rem;
+    font-size: 2.3rem;
+    transition: background-color 0.25s ease-in, padding-left 0.5s ease-out, padding-right 0.5s ease-out;
+}
+#sign-up-button:hover, #contact-us-button:hover{
+    background-color: var(--background-color);
+    color: var(--neutral-white);
+    padding-left: calc();
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    cursor: pointer;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input, textarea{
+    font-weight: 300;
+    border: none; 
+    caret-color: maroon;
+    border-bottom: 0.4rem solid var(--background-color);
+    background-color: var(--neutral-white);
+    color: var(--background-color);
+    outline: none;
+    font-size: 2.3rem;
+    font-weight: 550;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sign-up-box-content{
+    margin-top: 4rem;
+}
+.fa-solid.fa-envelope, .fa-solid.fa-lock{
+    margin-right: 2rem;
+}
+#password-input-form{
+    margin-top: 5rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#selectedImage{
+    margin-right: 2rem;
+    color: rgb(105, 177, 245);
+}
+h3{
+    color: var(--background-color);
+    font-size: 1.6rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.google-github-sign-up{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.fa-brands.fa-google, .fa-brands.fa-github{
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    transition: color 0.25s ease-in, font-size 0.25s ease-out;
+    margin-right: 0.7rem;
+    margin-left: 0.1rem;
+}
+.fa-brands.fa-google:hover{
+    color: rgb(206, 35, 35);
+}
+.fa-brands.fa-github:hover{
+    color: rgb(66, 101, 117);
+}
+.fa-brands.fa-github:hover, .fa-brands.fa-google:hover{
+    cursor: pointer;
+    font-size: 3rem;
+}
+
+#team-number-input,
+#official-email-form, .fa-solid.fa-envelope-open-text, .fa-solid.fa-users, .fa-solid.fa-file-signature {
+    margin-top: 2rem;
+}
+.Name-Section input{
+    margin-top: 1.7rem;
+}
+.Team-Section, .Admin-Email-Section, .Name-Section {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.Team-Section i, .Admin-Email-Section i, .Name-Section i{
+    margin-right: 2rem;
+}
+.bottom-section-register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
